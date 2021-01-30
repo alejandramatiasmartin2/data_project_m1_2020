@@ -18,9 +18,9 @@ There are 3 different datasources involved:
 
 - <strong>Tables (.db): </strong> the main dataset.
 
-- <strong>API:</strong> from the Open Skilss Project <http://dataatwork.org/data/>.
+- <strong>API:</strong> from the [Open Skilss Project](http://dataatwork.org/data/)
 
-- <strong>Web Scraping: </strong> It is required to retrieve information about country codes from Eurostat website <https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Country_codes>
+- <strong>Web Scraping: </strong> It is required to retrieve information about country codes from [Eurostat website](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Country_codes)
 
 
 ## :clipboard: Instructions
