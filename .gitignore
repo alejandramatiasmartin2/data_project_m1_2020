@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# iOS
+.DS_Store
+
+# PyCharm
+.idea
+
+# Credentials
+data/credentials/credentials.py
