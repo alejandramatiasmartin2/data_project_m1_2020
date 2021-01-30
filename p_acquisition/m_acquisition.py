@@ -95,6 +95,4 @@ def get_country_codes():
             country_names.append(x)
     dict_countries = dict(zip(country_names, country_codes))
 
-    print('countries_df completed')
-
-    return countries_df
+   #me he quedado aqui pasando la info, seguire más tarde
