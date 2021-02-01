@@ -81,10 +81,8 @@ def get_country_codes():
     print('Tds transformed into a list')
     fixed_df_country2 = []
     for i in fixed_df_country:
-        f = i.replace('\n', '').replace('(', '').replace(')', '')
-
-        dict_countries = dict(zip(country_names, country_codes))
-
+        m = i.replace('\n', '').replace('(', '').replace(')', '')
+        fixed_df_country2.append(m)
     print('td list fixed')
     country_codes = []
     country_names = []
@@ -94,5 +92,10 @@ def get_country_codes():
         else:
             country_names.append(x)
     dict_countries = dict(zip(country_names, country_codes))
+    dict_countries['Great Britain'] = 'GB'
+    dict_countries['Greece'] = 'GR'
+    countries_df = pd.DataFrame(([key, dict_countries[key]] for key in dict_countries.keys()),
+                             columns=['Country', 'country_code'])
+    return countries_df
 
-   #me he quedado aqui pasando la info, seguire más tarde
+
